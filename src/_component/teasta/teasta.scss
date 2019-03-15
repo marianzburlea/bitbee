@@ -1,4 +1,21 @@
-h1 {
-  color: $color-white;
+.teasta {
+  height: 100%;
   background-color: $color-flamingo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.teasta__titlu {
+  color: $color-white;
+  text-align: center;
+  padding: 1rem 0;
+  // border: 1px dashed white;
+}
+
+.teasta__descriere {
+  text-indent: 1rem;
+  text-align: justify;
 }
