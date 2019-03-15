@@ -1,0 +1,9 @@
+.echipa-echipelor {
+  background-color: $color-elephant;
+
+  @extend %sectiune-smechera;
+}
+
+.echipa-echipelor__titlu {
+  @extend %mega-ultra__titlu;
+}
