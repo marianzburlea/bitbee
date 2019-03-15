@@ -1,6 +1,10 @@
 // Ii dam repornire lui nenea asta de zero barat
-* {
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {

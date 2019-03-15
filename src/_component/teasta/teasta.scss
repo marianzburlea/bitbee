@@ -2,6 +2,22 @@
   background-color: $color-flamingo;
   
   @extend %sectiune-smechera;
+
+  position: relative;
+
+  &:after {
+    // cand faci ceva in after sau in before si nu se vede
+    // e pentru ca nu i-ai pus pro-pie-tat-ea content
+    content: '';
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    width: 120%;
+    background-color: $color-flamingo;
+    height: 45px;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    // transform: rotateZ(2deg)
+  }
 }
 
 .teasta__titlu {
