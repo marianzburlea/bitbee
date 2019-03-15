@@ -1,11 +1,7 @@
 .super {
-  height: 100%;
   background-color: $color-chateau-green;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  flex-direction: column;
+
+  @extend %sectiune-smechera;
 }
 
 .super__titlu {
