@@ -5,10 +5,7 @@
 }
 
 .teasta__titlu {
-  color: $color-white;
-  text-align: center;
-  padding: 1rem 0;
-  // border: 1px dashed white;
+  @extend %mega-ultra__titlu;
 }
 
 .teasta__descriere {
