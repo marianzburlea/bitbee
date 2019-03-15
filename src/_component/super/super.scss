@@ -1,0 +1,22 @@
+.super {
+  height: 100%;
+  background-color: $color-chateau-green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.super__titlu {
+  color: $color-white;
+  text-align: center;
+  padding: 1rem 0;
+  // border: 1px dashed white;
+}
+
+.super__descriere {
+  text-indent: 1rem;
+  text-align: justify;
+  font-size: 1.2rem;
+}
