@@ -16,7 +16,7 @@
     background-color: $color-flamingo;
     height: 45px;
     clip-path: polygon(0 0, 0 100%, 100% 0);
-    // transform: rotateZ(2deg)
+    z-index: 1;
   }
 }
 

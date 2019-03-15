@@ -2,6 +2,19 @@
   background-color: $color-chateau-green;
 
   @extend %sectiune-smechera;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    width: 120%;
+    background-color: $color-chateau-green;
+    height: 45px;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    z-index: 1;
+  }
 }
 
 .super__titlu {

@@ -2,6 +2,18 @@
   background-color: $color-elephant;
 
   @extend %sectiune-smechera;
+  position: relative;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -45px;
+  //   right: 0;
+  //   width: 120%;
+  //   background-color: $color-flamingo;
+  //   height: 45px;
+  //   clip-path: polygon(0 0, 0 100%, 100% 0);
+  // }
 }
 
 .echipa-echipelor__titlu {
