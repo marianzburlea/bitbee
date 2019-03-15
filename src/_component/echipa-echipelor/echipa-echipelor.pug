@@ -1,4 +1,15 @@
+-
+  const imageNameList = [
+    'marianus-smecherus',
+    'gratielos-originalus',
+    'andreius-strongus',
+    'ancus-bazatus',
+    'ionelus-tataius',
+    'stelutus-luminatus',
+    'vioricus-fericitus',
+  ]
 .echipa-echipelor
-  h2.echipa-echipelor__titlu Echipa echipelor
+  h2.echipa-echipelor__titlu Echipa rachetelor si paletelor
   .echipa-echipelor__lista-imagine
-    .echipa-echipelor__imagine(style=`background-image: url(/asset/image/marianus-smecherus.jpg)`)
+    each imageName in imageNameList
+      .echipa-echipelor__imagine(style=`background-image: url(/asset/image/${imageName}.jpg)`)
