@@ -53,7 +53,7 @@ To help you out even more I've put together some YouTube tutorials:
 
 * Build HTML5 website pain free tutorial for beginners 2017
 
-[![Build HTML5 website pain free tutorial for beginners 2017](http://img.youtube.com/vi/qCyokdeZ6jI/0.jpg)](http://www.youtube.com/watch?v=qCyokdeZ6jI)
+[![Build HTML5 website pain free tutorial for beginners 2017](http://img.youtube.com/vi/qCyokdeZ6jI/0.jpg)](http://www.youtube.com/watch?v=qCyokdeZ6jI) [![Greenkeeper badge](https://badges.greenkeeper.io/marianzburlea/bitbee.svg)](https://greenkeeper.io/)
 
 
 Starter package for pug (former jade) template based projects.
